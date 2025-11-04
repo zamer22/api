@@ -41,7 +41,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Log in to GHCR
-        uses: docker/login-activation@v3
+        uses: docker/login-action@v3
         with:
             registry: ${{ env.REGISTRY}}
             username: ${{ github.actor}}
