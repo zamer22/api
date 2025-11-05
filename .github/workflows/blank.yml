@@ -18,7 +18,7 @@ permissions:
 
 env:
     REGISTRY: ghcr.io
-    IMAGE_NAME: ghcr.io/${{github.repository}}/API
+    IMAGE_NAME: ghcr.io/${{github.repository}}/api
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
